@@ -1,0 +1,1 @@
+cordova run android --release -- --keystore=/home/marcos/cordova/TuGrueroCliente_sin_gps/android-gleemwmac.keystore --storePassword=gleem123 --alias=certificado_android --password=gleem123

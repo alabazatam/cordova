@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tugruero.cliente" version="5.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Tu Gruero</name>
+    <description>
+        Aplicación de asistencia vehicular.
+    </description>
+    <author email="deandrademarcos@gmail.com" href="http://www.tugruero.com">
+        Deansoft
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+	<icon platform="android" src="www/images/app-icon/logo_icon-01.png" density="xhdpi" width="96" height="96"/>
+	<icon platform="android" src="www/images/app-icon/logo_icon-02.png" density="hdpi" width="72" height="72"/>
+	<icon platform="android" src="www/images/app-icon/logo_icon-03.png" density="mdpi" width="48" height="48"/>
+	<icon platform="android" src="www/images/app-icon/logo_icon-04.png" density="ldpi" width="36" height="36"/>
+	<splash platform="android" src="www/images/splash/large.9.png" density="hdpi" width="480" height="640" orientation="portrait"/>
+	<splash platform="android" src="www/images/splash/med.9.png" density="mdpi" width="320" height="470" orientation="portrait"/>
+	<splash platform="android" src="www/images/splash/low.9.png" density="ldpi" width="320" height="426" orientation="portrait"/>
+	<splash platform="android" src="www/images/splash/xlarge.9.png" density="xhdpi" width="720" height="960" orientation="portrait"/>
+    <platform name="android">
+        <allow-intent href="market:*" />
+		<preference name="FadeSplashScreen" value="false"/>	
+		<preference name="FadeSplashScreenDuration" value="500"/>
+		<preference name="ShowSplashScreenSpinner" value="false"/>
+		<preference name="SplashMaintainAspectRatio" value="false"/>
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
